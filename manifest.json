@@ -34621,7 +34621,80 @@
         "aggregate/ast/fcf1bc73dbe13bc61d18a6e998237a5021d3341c.nq.gz"
       ],
       "lsp": "aggregate/lsp/fcf1bc73dbe13bc61d18a6e998237a5021d3341c.nq.gz",
-      "repolex": "aggregate/repolex/fcf1bc73dbe13bc61d18a6e998237a5021d3341c.nq.gz"
+      "repolex": "aggregate/repolex/fcf1bc73dbe13bc61d18a6e998237a5021d3341c.nq.gz",
+      "dep": "dep/fcf1bc73dbe13bc61d18a6e998237a5021d3341c.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "certifi",
+          "packageVersion": "2026.2.25",
+          "githubOrg": "certifi",
+          "githubRepo": "python-certifi",
+          "githubCommit": "HEAD"
+        },
+        {
+          "packageName": "httpcore",
+          "packageVersion": "1.0.9",
+          "githubOrg": "encode",
+          "githubRepo": "httpcore",
+          "githubCommit": "98209758cc14e1a5f966fe1dfdc1064b94055d8c"
+        },
+        {
+          "packageName": "idna",
+          "packageVersion": "3.9.0",
+          "githubOrg": "kjd",
+          "githubRepo": "idna",
+          "githubCommit": "HEAD"
+        },
+        {
+          "packageName": "sniffio",
+          "packageVersion": "1.3.1",
+          "githubOrg": "python-trio",
+          "githubRepo": "sniffio",
+          "githubCommit": "ae020e13b98d276a6558ffc25e82509fd4c288f0"
+        },
+        {
+          "packageName": "brotli",
+          "packageVersion": "1.2.0",
+          "githubOrg": "google",
+          "githubRepo": "brotli",
+          "githubCommit": "028fb5a23661f123017c060daa546b55cf4bde29"
+        },
+        {
+          "packageName": "brotlicffi",
+          "packageVersion": "1.2.0.1",
+          "githubOrg": "python-hyper",
+          "githubRepo": "brotlicffi",
+          "githubCommit": "3fd4d205e1a356c9b02faccfbe449e774537ddf2"
+        },
+        {
+          "packageName": "click",
+          "packageVersion": "8.3.1",
+          "githubOrg": "pallets",
+          "githubRepo": "click",
+          "githubCommit": "1d038f270701498433cb432f54db89f95f07a845"
+        },
+        {
+          "packageName": "rich",
+          "packageVersion": "9.9.0",
+          "githubOrg": "willmcgugan",
+          "githubRepo": "rich",
+          "githubCommit": "3473658d13a4e88e1e58a7be116ae6975ca13cf6"
+        },
+        {
+          "packageName": "h2",
+          "packageVersion": "4.3.0",
+          "githubOrg": "python-hyper",
+          "githubRepo": "h2",
+          "githubCommit": "1aae569315eb170cdff00582644aca37ee38db62"
+        },
+        {
+          "packageName": "socksio",
+          "packageVersion": "1.0.0",
+          "githubOrg": "sethmlarson",
+          "githubRepo": "socksio",
+          "githubCommit": "e69158473125060879319368e9465d7881cee0b8"
+        }
+      ]
     },
     {
       "commit": "cc206cf2dad42600479962ac1daaa44675cfaf56",
