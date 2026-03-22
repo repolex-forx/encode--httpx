@@ -1,0 +1,92 @@
+{
+  "commit": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+  "files": {
+    "repolex": {
+      "path": "aggregate/repolex/26d48e0634e6ee9cdc0533996db289ce4b430177.nq.gz",
+      "size_bytes": 198083
+    },
+    "dep": {
+      "path": "dep/26d48e0634e6ee9cdc0533996db289ce4b430177.nq.gz",
+      "size_bytes": 1309
+    }
+  },
+  "dependencies": [
+    {
+      "packageName": "certifi",
+      "packageVersion": "2026.2.25",
+      "githubOrg": "certifi",
+      "githubRepo": "python-certifi",
+      "githubCommit": "HEAD"
+    },
+    {
+      "packageName": "httpcore",
+      "packageVersion": "1.0.9",
+      "githubOrg": "encode",
+      "githubRepo": "httpcore",
+      "githubCommit": "98209758cc14e1a5f966fe1dfdc1064b94055d8c"
+    },
+    {
+      "packageName": "anyio",
+      "packageVersion": "4.9.0",
+      "githubOrg": "agronholm",
+      "githubRepo": "anyio",
+      "githubCommit": "a6e9ebb75f0e1492ab5d0740b2ca76d0137f95e3"
+    },
+    {
+      "packageName": "idna",
+      "packageVersion": "3.9.0",
+      "githubOrg": "kjd",
+      "githubRepo": "idna",
+      "githubCommit": "HEAD"
+    },
+    {
+      "packageName": "brotli",
+      "packageVersion": "1.2.0",
+      "githubOrg": "google",
+      "githubRepo": "brotli",
+      "githubCommit": "028fb5a23661f123017c060daa546b55cf4bde29"
+    },
+    {
+      "packageName": "brotlicffi",
+      "packageVersion": "1.2.0.1",
+      "githubOrg": "python-hyper",
+      "githubRepo": "brotlicffi",
+      "githubCommit": "3fd4d205e1a356c9b02faccfbe449e774537ddf2"
+    },
+    {
+      "packageName": "click",
+      "packageVersion": "8.3.1",
+      "githubOrg": "pallets",
+      "githubRepo": "click",
+      "githubCommit": "1d038f270701498433cb432f54db89f95f07a845"
+    },
+    {
+      "packageName": "rich",
+      "packageVersion": "9.9.0",
+      "githubOrg": "willmcgugan",
+      "githubRepo": "rich",
+      "githubCommit": "3473658d13a4e88e1e58a7be116ae6975ca13cf6"
+    },
+    {
+      "packageName": "h2",
+      "packageVersion": "4.3.0",
+      "githubOrg": "python-hyper",
+      "githubRepo": "h2",
+      "githubCommit": "1aae569315eb170cdff00582644aca37ee38db62"
+    },
+    {
+      "packageName": "socksio",
+      "packageVersion": "1.0.0",
+      "githubOrg": "sethmlarson",
+      "githubRepo": "socksio",
+      "githubCommit": "e69158473125060879319368e9465d7881cee0b8"
+    },
+    {
+      "packageName": "zstandard",
+      "packageVersion": "0.9.1",
+      "githubOrg": "indygreg",
+      "githubRepo": "python-zstandard",
+      "githubCommit": "6a99eaca20cb4325fc11186e3482b67895d4d228"
+    }
+  ]
+}
