@@ -23249,157 +23249,242 @@
       "dependencies": [
         {
           "packageName": "brotlipy",
-          "packageVersion": "0.7.0",
+          "ecosystem": "PYPI",
+          "version": "0.7.",
           "githubOrg": "python-hyper",
           "githubRepo": "brotlipy",
-          "githubCommit": "da3be6051386791ea7f5372230caecc2328262ff"
+          "githubUrl": "https://github.com/python-hyper/brotlipy",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "mkdocs",
-          "packageVersion": "1.6.1",
+          "ecosystem": "PYPI",
+          "version": "1.6.1",
           "githubOrg": "mkdocs",
           "githubRepo": "mkdocs",
-          "githubCommit": "bb7e8b62185b11d9f59bb7f50b13c15134f62f8a"
+          "githubCommit": "bb7e8b62185b11d9f59bb7f50b13c15134f62f8a",
+          "githubTag": "1.6.1",
+          "githubUrl": "https://github.com/mkdocs/mkdocs",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "mkautodoc",
-          "packageVersion": "0.2.0",
+          "ecosystem": "PYPI",
+          "version": "0.2.0",
           "githubOrg": "tomchristie",
           "githubRepo": "mkautodoc",
-          "githubCommit": "ad41abc4a94c4d63347e808ce6ca1dc0fb800bfb"
+          "githubCommit": "ad41abc4a94c4d63347e808ce6ca1dc0fb800bfb",
+          "githubTag": "0.2.0",
+          "githubUrl": "https://github.com/tomchristie/mkautodoc",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "mkdocs-material",
-          "packageVersion": "9.7.6",
+          "ecosystem": "PYPI",
+          "version": "9.7.6",
           "githubOrg": "squidfunk",
           "githubRepo": "mkdocs-material",
-          "githubCommit": "6c52ed6289b171a153875491f059a94819ec3e10"
+          "githubCommit": "6c52ed6289b171a153875491f059a94819ec3e10",
+          "githubTag": "9.7.6",
+          "githubUrl": "https://github.com/squidfunk/mkdocs-material",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "twine",
-          "packageVersion": "6.2.0",
+          "ecosystem": "PYPI",
+          "version": "6.2.0",
           "githubOrg": "pypa",
           "githubRepo": "twine",
-          "githubCommit": "14ceb29585a54f679e415b351aece2acc19aa4b2"
+          "githubCommit": "14ceb29585a54f679e415b351aece2acc19aa4b2",
+          "githubTag": "6.2.0",
+          "githubUrl": "https://github.com/pypa/twine",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "wheel",
+          "ecosystem": "PYPI",
+          "version": "0.46.3",
+          "githubOrg": "pypa",
+          "githubRepo": "wheel",
+          "githubCommit": "8b6fa740a7101edacb42b0f8e83a1b659ff61033",
+          "githubTag": "0.46.3",
+          "githubUrl": "https://github.com/pypa/wheel",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "autoflake",
-          "packageVersion": "2.3.3",
+          "ecosystem": "PYPI",
+          "version": "2.3.3",
           "githubOrg": "PyCQA",
           "githubRepo": "autoflake",
-          "githubCommit": "988e469555a54b0b16e39faf16ae84ff247fd337"
+          "githubCommit": "988e469555a54b0b16e39faf16ae84ff247fd337",
+          "githubTag": "v2.3.3",
+          "githubUrl": "https://www.github.com/PyCQA/autoflake",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "black",
-          "packageVersion": "26.3.1",
+          "ecosystem": "PYPI",
+          "version": "20.8",
           "githubOrg": "psf",
           "githubRepo": "black",
-          "githubCommit": "c6755bb741b6481d6b3d3bb563c83fa060db96c9"
+          "githubUrl": "https://github.com/psf/black",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "coverage",
-          "packageVersion": "7.9.2",
-          "githubOrg": "nedbat",
+          "ecosystem": "PYPI",
+          "version": "5.3",
+          "githubOrg": "coveragepy",
           "githubRepo": "coveragepy",
-          "githubCommit": "6e774923cf042751feb78036fcd46909d263be06"
+          "githubUrl": "https://github.com/coveragepy/coveragepy",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "cryptography",
-          "packageVersion": "46.0.5",
+          "ecosystem": "PYPI",
+          "version": "46.0.6",
           "githubOrg": "pyca",
           "githubRepo": "cryptography",
-          "githubCommit": "06e120e682cb200e3f7050c02f0bcdac90c4c6ad"
+          "githubCommit": "91d728897bdad30cd5c79a2b23e207f1f050d587",
+          "githubTag": "46.0.6",
+          "githubUrl": "https://github.com/pyca/cryptography",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "flake8",
-          "packageVersion": "7.3.0",
+          "ecosystem": "PYPI",
+          "version": "7.3.0",
           "githubOrg": "pycqa",
           "githubRepo": "flake8",
-          "githubCommit": "c48217e1fc006c2dddd14df54e83b67da15de5cd"
+          "githubCommit": "c48217e1fc006c2dddd14df54e83b67da15de5cd",
+          "githubTag": "7.3.0",
+          "githubUrl": "https://github.com/pycqa/flake8",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "flake8-bugbear",
-          "packageVersion": "25.11.29",
+          "ecosystem": "PYPI",
+          "version": "25.11.29",
           "githubOrg": "PyCQA",
           "githubRepo": "flake8-bugbear",
-          "githubCommit": "a5ace0a2fe0697c42bca1c37cebc3d95e2c10df9"
+          "githubCommit": "a5ace0a2fe0697c42bca1c37cebc3d95e2c10df9",
+          "githubTag": "25.11.29",
+          "githubUrl": "https://github.com/PyCQA/flake8-bugbear",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "flake8-pie",
-          "packageVersion": "0.9.0",
+          "ecosystem": "PYPI",
+          "version": "0.5.",
           "githubOrg": "sbdchd",
           "githubRepo": "flake8-pie",
-          "githubCommit": "cfa41145e92cf8494651d7a117737b1f7d33ee13"
+          "githubUrl": "https://github.com/sbdchd/flake8-pie",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "isort",
-          "packageVersion": "8.0.1",
+          "ecosystem": "PYPI",
+          "version": "5.",
           "githubOrg": "PyCQA",
           "githubRepo": "isort",
-          "githubCommit": "a333737ed43df02b18e6c95477ea1b285b3de15a"
+          "githubUrl": "https://github.com/PyCQA/isort",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "mypy",
-          "packageVersion": "1.9.0",
+          "ecosystem": "PYPI",
+          "version": "1.19.1",
           "githubOrg": "python",
           "githubRepo": "mypy",
-          "githubCommit": "5ff46f8b3706d005fabab2227ec84476d605bfd4"
+          "githubCommit": "412c19a6bde31e7afa7f41afdf8356664689ae80",
+          "githubTag": "v1.19.1",
+          "githubUrl": "https://github.com/python/mypy",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "pytest",
-          "packageVersion": "9.0.2",
+          "ecosystem": "PYPI",
+          "version": "5.",
           "githubOrg": "pytest-dev",
           "githubRepo": "pytest",
-          "githubCommit": "3d10b5148e03eb82b3ee29181dbdc73cf82699e2"
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "pytest-asyncio",
-          "packageVersion": "1.3.0",
+          "ecosystem": "PYPI",
+          "version": "1.3.0",
           "githubOrg": "pytest-dev",
           "githubRepo": "pytest-asyncio",
-          "githubCommit": "2e9695fcf8c5c514f30f57b7d14ab83846357b96"
+          "githubCommit": "2e9695fcf8c5c514f30f57b7d14ab83846357b96",
+          "githubTag": "v1.3.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest-asyncio",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "pytest-trio",
-          "packageVersion": "0.8.0",
+          "ecosystem": "PYPI",
+          "version": "0.8.0",
           "githubOrg": "python-trio",
           "githubRepo": "pytest-trio",
-          "githubCommit": "HEAD"
+          "githubCommit": "250ec45f5d72eca78ab0ea2d1571667d2c51f8b5",
+          "githubTag": "v0.8.0",
+          "githubUrl": "https://github.com/python-trio/pytest-trio",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "trio",
-          "packageVersion": "0.9.0",
+          "ecosystem": "PYPI",
+          "version": "0.33.0",
           "githubOrg": "python-trio",
           "githubRepo": "trio",
-          "githubCommit": "HEAD"
+          "githubCommit": "3073f0c2108bad83c27dda6c83474a9b8ce4a957",
+          "githubTag": "v0.33.0",
+          "githubUrl": "https://github.com/python-trio/trio",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "trio-typing",
-          "packageVersion": "0.9.0",
+          "ecosystem": "PYPI",
+          "version": "0.10.0",
           "githubOrg": "python-trio",
           "githubRepo": "trio-typing",
-          "githubCommit": "HEAD"
+          "githubCommit": "422d8fc816d40251d9e59b4afeec12c7fd3f9978",
+          "githubTag": "v0.10.0",
+          "githubUrl": "https://github.com/python-trio/trio-typing",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "trustme",
-          "packageVersion": "1.2.1",
+          "ecosystem": "PYPI",
+          "version": "1.2.1",
           "githubOrg": "python-trio",
           "githubRepo": "trustme",
-          "githubCommit": "HEAD"
+          "githubCommit": "6d39f51de72ce21bbb1d3842f8ed795b39e4cc9b",
+          "githubTag": "v1.2.1",
+          "githubUrl": "https://github.com/python-trio/trustme",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "uvicorn",
-          "packageVersion": "0.9.1",
-          "githubOrg": "encode",
-          "githubRepo": "uvicorn",
-          "githubCommit": "HEAD"
+          "ecosystem": "PYPI",
+          "version": "0.42.0",
+          "githubOrg": "sponsors",
+          "githubRepo": "encode",
+          "githubUrl": "https://github.com/sponsors/encode",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "attrs",
-          "packageVersion": "26.1.0",
+          "ecosystem": "PYPI",
+          "version": "19.3.0",
           "githubOrg": "python-attrs",
           "githubRepo": "attrs",
-          "githubCommit": "HEAD"
+          "githubCommit": "823c1c332ce7de24eef8a28e6d9ccf818ce7746c",
+          "githubTag": "19.3.0",
+          "githubUrl": "https://github.com/python-attrs/attrs",
+          "source": "build_file:requirements.txt"
         }
       ]
     },
