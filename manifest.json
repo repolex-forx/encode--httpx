@@ -39529,80 +39529,300 @@
       "dependencies": [
         {
           "packageName": "certifi",
-          "packageVersion": "2026.2.25",
+          "ecosystem": "PYPI",
+          "version": "2026.2.25",
           "githubOrg": "certifi",
           "githubRepo": "python-certifi",
-          "githubCommit": "HEAD"
+          "githubUrl": "https://github.com/certifi/python-certifi",
+          "source": "build_file:pyproject.toml"
         },
         {
           "packageName": "httpcore",
-          "packageVersion": "1.0.9",
+          "ecosystem": "PYPI",
+          "version": "1.",
           "githubOrg": "encode",
           "githubRepo": "httpcore",
-          "githubCommit": "98209758cc14e1a5f966fe1dfdc1064b94055d8c"
+          "githubUrl": "https://github.com/encode/httpcore",
+          "source": "build_file:pyproject.toml"
         },
         {
           "packageName": "anyio",
-          "packageVersion": "4.9.0",
+          "ecosystem": "PYPI",
+          "version": "4.13.0",
           "githubOrg": "agronholm",
           "githubRepo": "anyio",
-          "githubCommit": "a6e9ebb75f0e1492ab5d0740b2ca76d0137f95e3"
+          "githubCommit": "afbe93ca9d0c447adf26e9c1715ac20870622bf2",
+          "githubTag": "4.13.0",
+          "githubUrl": "https://github.com/agronholm/anyio",
+          "source": "build_file:pyproject.toml"
         },
         {
           "packageName": "idna",
-          "packageVersion": "3.9.0",
+          "ecosystem": "PYPI",
+          "version": "3.11.0",
           "githubOrg": "kjd",
           "githubRepo": "idna",
-          "githubCommit": "HEAD"
+          "githubUrl": "https://github.com/kjd/idna",
+          "source": "build_file:pyproject.toml"
         },
         {
           "packageName": "sniffio",
-          "packageVersion": "1.3.1",
+          "ecosystem": "PYPI",
+          "version": "1.3.1",
           "githubOrg": "python-trio",
           "githubRepo": "sniffio",
-          "githubCommit": "ae020e13b98d276a6558ffc25e82509fd4c288f0"
+          "githubCommit": "ae020e13b98d276a6558ffc25e82509fd4c288f0",
+          "githubTag": "v1.3.1",
+          "githubUrl": "https://github.com/python-trio/sniffio",
+          "source": "build_file:pyproject.toml"
         },
         {
           "packageName": "brotli",
-          "packageVersion": "1.2.0",
+          "ecosystem": "PYPI",
+          "version": "1.2.0",
           "githubOrg": "google",
           "githubRepo": "brotli",
-          "githubCommit": "028fb5a23661f123017c060daa546b55cf4bde29"
+          "githubCommit": "028fb5a23661f123017c060daa546b55cf4bde29",
+          "githubTag": "v1.2.0",
+          "githubUrl": "https://github.com/google/brotli",
+          "source": "build_file:pyproject.toml"
         },
         {
           "packageName": "brotlicffi",
-          "packageVersion": "1.2.0.1",
+          "ecosystem": "PYPI",
+          "version": "1.2.0.1",
           "githubOrg": "python-hyper",
           "githubRepo": "brotlicffi",
-          "githubCommit": "3fd4d205e1a356c9b02faccfbe449e774537ddf2"
+          "githubCommit": "3fd4d205e1a356c9b02faccfbe449e774537ddf2",
+          "githubTag": "v1.2.0.1",
+          "githubUrl": "https://github.com/python-hyper/brotlicffi",
+          "source": "build_file:pyproject.toml"
         },
         {
           "packageName": "click",
-          "packageVersion": "8.3.1",
+          "ecosystem": "PYPI",
+          "version": "8.",
           "githubOrg": "pallets",
           "githubRepo": "click",
-          "githubCommit": "1d038f270701498433cb432f54db89f95f07a845"
+          "githubUrl": "https://github.com/pallets/click",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pygments",
+          "ecosystem": "PYPI",
+          "version": "2.",
+          "githubOrg": "pygments",
+          "githubRepo": "pygments",
+          "githubUrl": "https://github.com/pygments/pygments",
+          "source": "build_file:pyproject.toml"
         },
         {
           "packageName": "rich",
-          "packageVersion": "9.9.0",
-          "githubOrg": "willmcgugan",
+          "ecosystem": "PYPI",
+          "version": "10",
+          "githubOrg": "Textualize",
           "githubRepo": "rich",
-          "githubCommit": "3473658d13a4e88e1e58a7be116ae6975ca13cf6"
+          "githubUrl": "https://github.com/Textualize/rich",
+          "source": "build_file:pyproject.toml"
         },
         {
           "packageName": "h2",
-          "packageVersion": "4.3.0",
+          "ecosystem": "PYPI",
+          "version": "3",
           "githubOrg": "python-hyper",
           "githubRepo": "h2",
-          "githubCommit": "1aae569315eb170cdff00582644aca37ee38db62"
+          "githubUrl": "https://github.com/python-hyper/h2",
+          "source": "build_file:pyproject.toml"
         },
         {
           "packageName": "socksio",
-          "packageVersion": "1.0.0",
+          "ecosystem": "PYPI",
+          "version": "1.",
           "githubOrg": "sethmlarson",
           "githubRepo": "socksio",
-          "githubCommit": "e69158473125060879319368e9465d7881cee0b8"
+          "githubUrl": "https://github.com/sethmlarson/socksio",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "chardet",
+          "ecosystem": "PYPI",
+          "version": "5.2.0",
+          "githubOrg": "chardet",
+          "githubRepo": "chardet",
+          "githubCommit": "fa905b359cbcaba93a35fd6429ba9ec4b156c1c1",
+          "githubTag": "5.2.0",
+          "githubUrl": "https://github.com/chardet/chardet",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "types-chardet",
+          "ecosystem": "PYPI",
+          "version": "5.0.4.5",
+          "githubOrg": "python",
+          "githubRepo": "typeshed",
+          "githubUrl": "https://github.com/python/typeshed",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "mkdocs",
+          "ecosystem": "PYPI",
+          "version": "1.5.3",
+          "githubOrg": "mkdocs",
+          "githubRepo": "mkdocs",
+          "githubCommit": "00b648f0884244a139f034554b59a032113176f6",
+          "githubTag": "1.5.3",
+          "githubUrl": "https://github.com/mkdocs/mkdocs",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "mkautodoc",
+          "ecosystem": "PYPI",
+          "version": "0.2.0",
+          "githubOrg": "tomchristie",
+          "githubRepo": "mkautodoc",
+          "githubCommit": "ad41abc4a94c4d63347e808ce6ca1dc0fb800bfb",
+          "githubTag": "0.2.0",
+          "githubUrl": "https://github.com/tomchristie/mkautodoc",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "mkdocs-material",
+          "ecosystem": "PYPI",
+          "version": "9.4.14",
+          "githubOrg": "squidfunk",
+          "githubRepo": "mkdocs-material",
+          "githubCommit": "c0aca213603644f80d8137e0932ad684f97d32e1",
+          "githubTag": "9.4.14",
+          "githubUrl": "https://github.com/squidfunk/mkdocs-material",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "build",
+          "ecosystem": "PYPI",
+          "version": "1.0.3",
+          "githubOrg": "pypa",
+          "githubRepo": "build",
+          "githubCommit": "38d1a688d5e05557a929245ada14d106f3e5b547",
+          "githubTag": "1.0.3",
+          "githubUrl": "https://github.com/pypa/build",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "twine",
+          "ecosystem": "PYPI",
+          "version": "4.0.2",
+          "githubOrg": "pypa",
+          "githubRepo": "twine",
+          "githubCommit": "75c3d8623c0847d8ce5a59c1d14a9fcc71e2a4a2",
+          "githubTag": "4.0.2",
+          "githubUrl": "https://github.com/pypa/twine",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "coverage",
+          "ecosystem": "PYPI",
+          "version": "7.3.0",
+          "githubOrg": "coveragepy",
+          "githubRepo": "coveragepy",
+          "githubCommit": "9c2f92483beabbbb9d0c714b1f00d08bf5f12656",
+          "githubTag": "7.3.0",
+          "githubUrl": "https://github.com/coveragepy/coveragepy",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "cryptography",
+          "ecosystem": "PYPI",
+          "version": "41.0.7",
+          "githubOrg": "pyca",
+          "githubRepo": "cryptography",
+          "githubCommit": "4054596afc6f2b6cfcc54f56c35c34e0e429cb66",
+          "githubTag": "41.0.7",
+          "githubUrl": "https://github.com/pyca/cryptography",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "mypy",
+          "ecosystem": "PYPI",
+          "version": "1.5.1",
+          "githubOrg": "python",
+          "githubRepo": "mypy",
+          "githubCommit": "de4f2ad99c88b885677247534dcec335621ade4d",
+          "githubTag": "v1.5.1",
+          "githubUrl": "https://github.com/python/mypy",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "types-certifi",
+          "ecosystem": "PYPI",
+          "version": "2021.10.8.2",
+          "githubOrg": "python",
+          "githubRepo": "typeshed",
+          "githubUrl": "https://github.com/python/typeshed",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "7.4.3",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "23906106968eb95afbd61adfbc7bbb795fc9aaa9",
+          "githubTag": "v7.4.3",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "ruff",
+          "ecosystem": "PYPI",
+          "version": "0.1.6",
+          "githubOrg": "astral-sh",
+          "githubRepo": "ruff",
+          "githubCommit": "f460f9c5c0126f59b6a9641221ef0bdfa8afa74a",
+          "githubTag": "v0.1.6",
+          "githubUrl": "https://github.com/astral-sh/ruff",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "trio",
+          "ecosystem": "PYPI",
+          "version": "0.22.2",
+          "githubOrg": "python-trio",
+          "githubRepo": "trio",
+          "githubCommit": "8741c58def83defc84ab2734f95f2f8d51c21920",
+          "githubTag": "v0.22.2",
+          "githubUrl": "https://github.com/python-trio/trio",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "trio-typing",
+          "ecosystem": "PYPI",
+          "version": "0.10.0",
+          "githubOrg": "python-trio",
+          "githubRepo": "trio-typing",
+          "githubCommit": "422d8fc816d40251d9e59b4afeec12c7fd3f9978",
+          "githubTag": "v0.10.0",
+          "githubUrl": "https://github.com/python-trio/trio-typing",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "trustme",
+          "ecosystem": "PYPI",
+          "version": "1.1.0",
+          "githubOrg": "python-trio",
+          "githubRepo": "trustme",
+          "githubCommit": "054735218397d39c46e4b09bf19b54b20f27bb16",
+          "githubTag": "v1.1.0",
+          "githubUrl": "https://github.com/python-trio/trustme",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "uvicorn",
+          "ecosystem": "PYPI",
+          "version": "0.24.0.",
+          "githubOrg": "sponsors",
+          "githubRepo": "encode",
+          "githubUrl": "https://github.com/sponsors/encode",
+          "source": "build_file:requirements.txt"
         }
       ]
     },
