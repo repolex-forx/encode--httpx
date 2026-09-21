@@ -36362,7 +36362,7 @@
         "blob/d15c0045301e07c4739004f4edfe350e01fb38b3.nq.gz"
       ],
       "ast": [
-        "aggregate/ast/fcf1bc73dbe13bc61d18a6e998237a5021d3341c.nq.gz"
+        "aggregate/ast/fcf1bc73dbe13bc61d18a6e998237a5021d3341c/chunk-001.nq.gz"
       ],
       "lsp": "aggregate/lsp/fcf1bc73dbe13bc61d18a6e998237a5021d3341c.nq.gz",
       "repolex": "aggregate/repolex/fcf1bc73dbe13bc61d18a6e998237a5021d3341c.nq.gz",
