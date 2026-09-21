@@ -41217,7 +41217,7 @@
         "aggregate/ast/609df7ecc0f7cb10a1c998aa9c269bba77337c5f/chunk-001.nq.gz"
       ],
       "lsp": "aggregate/lsp/609df7ecc0f7cb10a1c998aa9c269bba77337c5f.nq.gz",
-      "repolex": "aggregate/repolex/609df7ecc0f7cb10a1c998aa9c269bba77337c5f.nq.gz",
+      "repolex": "aggregate/repolex/609df7ecc0f7cb10a1c998aa9c269bba77337c5f/chunk-001.nq.gz",
       "dependencies": [
         {
           "packageName": "certifi",
@@ -41509,7 +41509,8 @@
           "githubUrl": "https://github.com/sponsors/Kludex",
           "source": "build_file:requirements.txt"
         }
-      ]
+      ],
+      "dep": "dep/609df7ecc0f7cb10a1c998aa9c269bba77337c5f.nq.gz"
     },
     {
       "commit": "26d48e0634e6ee9cdc0533996db289ce4b430177",
