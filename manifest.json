@@ -36365,7 +36365,7 @@
         "aggregate/ast/fcf1bc73dbe13bc61d18a6e998237a5021d3341c/chunk-001.nq.gz"
       ],
       "lsp": "aggregate/lsp/fcf1bc73dbe13bc61d18a6e998237a5021d3341c.nq.gz",
-      "repolex": "aggregate/repolex/fcf1bc73dbe13bc61d18a6e998237a5021d3341c.nq.gz",
+      "repolex": "aggregate/repolex/fcf1bc73dbe13bc61d18a6e998237a5021d3341c/chunk-001.nq.gz",
       "dep": "dep/fcf1bc73dbe13bc61d18a6e998237a5021d3341c.nq.gz",
       "dependencies": [
         {
