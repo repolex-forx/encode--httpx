@@ -3,6 +3,11 @@
   "repo": "httpx",
   "versions": [
     {
+      "commit": "fcf1bc73dbe13bc61d18a6e998237a5021d3341c",
+      "tag": "0.24.1",
+      "parsed_at": "2026-09-22T12:17:37.971695+00:00"
+    },
+    {
       "commit": "609df7ecc0f7cb10a1c998aa9c269bba77337c5f",
       "tag": "0.27.2",
       "parsed_at": "2026-09-21T05:15:02.799059+00:00"
