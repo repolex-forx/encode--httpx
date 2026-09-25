@@ -1390,7 +1390,7 @@
         "blob/5084022785523e0edae721615943ae4fc8440b0c.nq.gz"
       ],
       "ast": [
-        "aggregate/ast/91a2a1b8968bceae16e3cdcbae396dd212cdf7da.nq.gz"
+        "aggregate/ast/91a2a1b8968bceae16e3cdcbae396dd212cdf7da/chunk-001.nq.gz"
       ],
       "lsp": "aggregate/lsp/91a2a1b8968bceae16e3cdcbae396dd212cdf7da.nq.gz",
       "repolex": "aggregate/repolex/91a2a1b8968bceae16e3cdcbae396dd212cdf7da.nq.gz",
