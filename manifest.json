@@ -1393,7 +1393,7 @@
         "aggregate/ast/91a2a1b8968bceae16e3cdcbae396dd212cdf7da/chunk-001.nq.gz"
       ],
       "lsp": "aggregate/lsp/91a2a1b8968bceae16e3cdcbae396dd212cdf7da.nq.gz",
-      "repolex": "aggregate/repolex/91a2a1b8968bceae16e3cdcbae396dd212cdf7da.nq.gz",
+      "repolex": "aggregate/repolex/91a2a1b8968bceae16e3cdcbae396dd212cdf7da/chunk-001.nq.gz",
       "tag": "0.2.1",
       "dep": "dep/91a2a1b8968bceae16e3cdcbae396dd212cdf7da.nq.gz",
       "dependencies": [
