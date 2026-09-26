@@ -6,29 +6,27 @@ RDF knowledge graph data for [encode/httpx](https://github.com/encode/httpx), pa
 
 ## How to use this data
 
-The easiest way to get started is to install the [lexq](https://github.com/repolex-ai/lexq) query tool using [uv](https://docs.astral.sh/uv/getting-started/installation/).
-
-If you have uv installed, just copy/paste this into your terminal:
+The easiest way to get started is to install the [rlex](https://github.com/repolex-ai/rlex) query tool:
 
 ```bash
-uv tool install git+https://github.com/repolex-ai/lexq
+cargo install --git https://github.com/repolex-ai/rlex
 ```
 
-This installs lexq onto your system, in your user context. Verify the install:
+Verify the install:
 
 ```bash
-lexq --help
+rlex --help
 ```
 
-**lexq is designed to be used primarily by LLMs in a terminal.** Start up your favorite LLM and ask it to use the lexq tool. It's that easy!
+**rlex is designed to be used primarily by LLMs in a terminal.** Start up your favorite AI assistant and ask it to use rlex. It handles the SPARQL — you just ask questions in plain English.
 
 To load this repo's data:
 
 ```bash
-lexq download encode/httpx
+rlex download encode/httpx
 ```
 
-This will automatically download essential data files from the last parsed commit. Consult `lexq --moreinfo` for other options, including downloading multiple commits, blobs, etc.
+Consult `rlex --help` for other options, including SPARQL queries, HTTP server, and interactive visualization.
 
 ## Data structure
 
@@ -57,6 +55,8 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   │   ├── 75b8fa4d0d62ce459f5c8aaff539f5c7528152e5.nq.gz
 │   │   ├── 77cf336eabcd53fbbda0c69dc692b5df820f578c.nq.gz
 │   │   ├── 831e79f50a59cb7c2af549fc186951703497fe08.nq.gz
+│   │   ├── 91a2a1b8968bceae16e3cdcbae396dd212cdf7da
+│   │   │   └── chunk-001.nq.gz
 │   │   ├── 91a2a1b8968bceae16e3cdcbae396dd212cdf7da.nq.gz
 │   │   ├── 92ca4d0cc654859fc2257c492e55d8752370d427.nq.gz
 │   │   ├── 9904684d353f8d806755918533487b78138f7c08.nq.gz
@@ -158,6 +158,8 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │       ├── 75b8fa4d0d62ce459f5c8aaff539f5c7528152e5.nq.gz
 │       ├── 77cf336eabcd53fbbda0c69dc692b5df820f578c.nq.gz
 │       ├── 831e79f50a59cb7c2af549fc186951703497fe08.nq.gz
+│       ├── 91a2a1b8968bceae16e3cdcbae396dd212cdf7da
+│       │   └── chunk-001.nq.gz
 │       ├── 91a2a1b8968bceae16e3cdcbae396dd212cdf7da.nq.gz
 │       ├── 92ca4d0cc654859fc2257c492e55d8752370d427.nq.gz
 │       ├── 9904684d353f8d806755918533487b78138f7c08.nq.gz
@@ -247,11 +249,9 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
     ├── 123692955b10426a8d45cfb45b7c6ff2d7578417.nq.gz
     ├── 123a890847fa202abdc7ff143e5703b7211b2f3a.nq.gz
     ├── 126c50e95bec93e392233a4423b6122598b2cb9d.nq.gz
-    ├── 129780642ef5a5da43ccedcf5b3d81fd9fa59a92.nq.gz
-    ├── 12b790af96fef2bfd7948305dfad4ad98cb3c437.nq.gz
-    └── 12d0fb5ae972eb033e2ca6f4553aeb6f92dee186.nq.gz
+    └── 129780642ef5a5da43ccedcf5b3d81fd9fa59a92.nq.gz
 
-15 directories, 200 files
+17 directories, 200 files
 ```
 
 | Directory | What it contains |
@@ -265,10 +265,11 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 | `branch/` | Branch metadata. |
 | `tag/` | Tag metadata. |
 | `filetree/` | File tree snapshots per commit (which files existed and their blob SHAs). |
+| `audit/` | Code architecture and graph audit reports per commit. |
 
 ## Source repository
 
 [encode/httpx](https://github.com/encode/httpx)
 
 ---
-*Parsed on 2026-09-24 by [repolex](https://repolex.ai)*
+*Parsed on 2026-09-26 by [repolex](https://repolex.ai)*
